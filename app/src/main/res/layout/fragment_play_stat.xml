@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayStatFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtHappy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Happy: "
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txtHungry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hunger: "
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/txtClean"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clean: "
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/editPlayHappy"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="play"
+            android:inputType = "text|number"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/editPlayHunger"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="play"
+            android:inputType = "text|number"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/editPlayClean"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="play"
+            android:inputType = "text|number"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</FrameLayout>

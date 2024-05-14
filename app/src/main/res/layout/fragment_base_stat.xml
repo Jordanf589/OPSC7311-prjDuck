@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BaseStatFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtHappy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Happy: "
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtHungry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hunger: "
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtClean"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clean: "
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/editBaseHappy"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="text|number"
+            android:text="base"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/editBaseHunger"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="text|number"
+            android:text="base"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/editBaseClean"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="text|number"
+            android:text="base"
+            android:textSize="20sp" />
+    </LinearLayout>
+</FrameLayout>
